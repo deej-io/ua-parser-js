@@ -2,7 +2,7 @@
 // Project: https://github.com/faisalman/ua-parser-js
 // Definitions by: Faisal Salman <https://github.com/faisalman>
 
-export const Browser: Readonly<{
+declare const Browser: Readonly<{
     '115': "115";
     '2345': "2345";
     '360': "360";
@@ -146,7 +146,7 @@ export const Browser: Readonly<{
     WOLVIC: "Wolvic";
     YANDEX: "Yandex";
 }>;
-export const BrowserType: Readonly<{
+declare const BrowserType: Readonly<{
     CRAWLER: "crawler";
     CLI: "cli";
     EMAIL: "email";
@@ -155,7 +155,7 @@ export const BrowserType: Readonly<{
     MEDIAPLAYER: "mediaplayer";
     LIBRARY: "library";
 }>;
-export const CPU: Readonly<{
+declare const CPU: Readonly<{
     '68K': "68k";
     ARM: "arm";
     ARM_64: "arm64";
@@ -174,7 +174,7 @@ export const CPU: Readonly<{
     X86: "ia32";
     X86_64: "amd64";
 }>;
-export const Device: Readonly<{
+declare const Device: Readonly<{
     CONSOLE: "console";
     DESKTOP: "desktop";
     EMBEDDED: "embedded";
@@ -184,7 +184,7 @@ export const Device: Readonly<{
     WEARABLE: "wearable";
     XR: "xr";
 }>;
-export const Vendor: Readonly<{
+declare const Vendor: Readonly<{
     ACER: "Acer";
     ADVAN: "Advan";
     ALCATEL: "Alcatel";
@@ -253,7 +253,7 @@ export const Vendor: Readonly<{
     ZEBRA: "Zebra";
     ZTE: "ZTE";
 }>;
-export const Engine: Readonly<{
+declare const Engine: Readonly<{
     AMAYA: "Amaya";
     ARKWEB: "ArkWeb";
     BLINK: "Blink";
@@ -275,7 +275,7 @@ export const Engine: Readonly<{
     W3M: "w3m";
     WEBKIT: "WebKit";
 }>;
-export const OS: Readonly<{
+declare const OS: Readonly<{
     AIX: "AIX";
     AMIGA_OS: "Amiga OS";
     ANDROID: "Android";
